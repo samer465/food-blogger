@@ -1,0 +1,52 @@
+/* Global Styles */
+body {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Section */
+#home {
+    background: url('images\ \(3\).jpg') center/cover no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Recipes Section */
+#recipes .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#recipes .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #ccc;
+    font-size: 14px;
+}
+footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+}

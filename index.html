@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Blogger</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">FoodieBlog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#recipes">Recipes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="container-fluid bg-primary text-white text-center py-5">
+        <h1>Welcome to FoodieBlog</h1>
+        <p>Sharing the Joy of Cooking and Eating</p>
+        <a href="#recipes" class="btn btn-light mt-3">Discover Recipes</a>
+    </div>
+
+    <!-- Recipes Section -->
+    <div id="recipes" class="container my-5">
+        <h2 class="text-center mb-4">Our Favorite Recipes</h2>
+        <div class="row g-4">
+            <!-- Recipe Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images.jpg" class="card-img-top" alt="Recipe 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti Bolognese</h5>
+                        <p class="card-text">A classic Italian favorite with rich meat sauce.</p>
+                        <a href="https://www.recipetineats.com/spaghetti-bolognese/" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <!-- More Recipe Cards -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images (1).jpg" class="card-img-top" alt="Recipe 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Avocado Salad</h5>
+                        <p class="card-text">A refreshing and healthy salad with avocado and greens.</p>
+                        <a href="https://www.loveandlemons.com/avocado-salad/" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images (2).jpg" class="card-img-top" alt="Recipe 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate Cake</h5>
+                        <p class="card-text">Indulge in a moist and rich chocolate cake.</p>
+                        <a href="https://www.winni.in/cake/chocolate-cake" class="btn btn-primary">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container bg-light py-5">
+        <h2 class="text-center mb-4">About Us</h2>
+        <p class="text-center">At FoodieBlog, we are passionate about sharing recipes, tips, and food stories that inspire cooking enthusiasts around the world. Join us on our journey of discovering flavors and creating memorable meals.</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="container py-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 FoodieBlog. All rights reserved.</p>
+        <div>
+            <a href="#" class="text-white me-2">Facebook</a>
+            <a href="#" class="text-white me-2">Instagram</a>
+            <a href="#" class="text-white">Twitter</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
